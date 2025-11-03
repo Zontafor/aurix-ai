@@ -97,4 +97,25 @@ aurix-ai/
                                     Dashboards (Streamlit)          │
                                                                    ▼
                                                          BI (Metabase/Looker)
+## Local Quickstart
+
+```bash
+# Clone and install
+git clone https://github.com/your-org/aurix-ai.git
+cd aurix-ai
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# Prepare data
+python aurix_data_cleaner.py
+python aurix_feature_engineering.py
+
+# Train models
+python aurix_model_train_xgb.py        # Optimized XGBoost + uplift
+python aurix_evaluate.py               # Aggregate metrics and plots
+
+# Run the API service
+docker-compose up --build
+```
+
 ## tbc...
