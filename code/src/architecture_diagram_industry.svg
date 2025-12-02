@@ -1,0 +1,58 @@
+<svg width="920" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="boxgrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#475569" />
+    </marker>
+  </defs>
+  <rect x="10" y="10" width="900" height="400" fill="url(#boxgrad)" stroke="#cbd5e1" stroke-width="1"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0f172a">
+    <!-- Boxes -->
+    <rect x="40" y="70" width="130" height="60" fill="url(#boxgrad)" stroke="#64748b"/>
+    <text x="55" y="100">Ingestion</text>
+    <text x="55" y="115">FastAPI/Webhooks</text>
+
+    <rect x="210" y="70" width="150" height="60" fill="url(#boxgrad)" stroke="#64748b"/>
+    <text x="230" y="100">Raw Zone</text>
+    <text x="230" y="115">Postgres / S3</text>
+
+    <rect x="400" y="70" width="150" height="60" fill="url(#boxgrad)" stroke="#64748b"/>
+    <text x="420" y="95">Feature Store</text>
+    <text x="420" y="110">Feast</text>
+
+    <rect x="590" y="70" width="140" height="60" fill="url(#boxgrad)" stroke="#64748b"/>
+    <text x="605" y="95">Model Train</text>
+    <text x="605" y="110">XGBoost + Uplift</text>
+
+    <rect x="760" y="70" width="120" height="60" fill="url(#boxgrad)" stroke="#64748b"/>
+    <text x="775" y="95">Evaluation</text>
+    <text x="775" y="110">Profit/Qini</text>
+
+    <rect x="350" y="200" width="160" height="60" fill="url(#boxgrad)" stroke="#64748b"/>
+    <text x="365" y="230">Model Service</text>
+    <text x="365" y="245">FastAPI</text>
+
+    <rect x="560" y="200" width="150" height="60" fill="url(#boxgrad)" stroke="#64748b"/>
+    <text x="575" y="230">Monitoring</text>
+    <text x="575" y="245">Grafana/Evidently</text>
+
+    <!-- Arrows -->
+    <line x1="170" y1="100" x2="210" y2="100" stroke="url(#accent)" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="360" y1="100" x2="400" y2="100" stroke="url(#accent)" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="550" y1="100" x2="590" y2="100" stroke="url(#accent)" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="730" y1="100" x2="760" y2="100" stroke="url(#accent)" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <line x1="470" y1="130" x2="430" y2="200" stroke="url(#accent)" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="660" y1="260" x2="800" y2="130" stroke="url(#accent)" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Legend -->
+    <text x="40" y="30">AURIX-AI Architecture (Industry)</text>
+  </g>
+</svg>
