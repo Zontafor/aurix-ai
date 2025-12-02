@@ -1,0 +1,56 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aurix-api
+    ports:
+      - "8080:8080"
+    environment:
+      - AURIX_MARGIN=100
+      - AURIX_CONTACT_COST=5
+      - AURIX_MAX_CONTACT_RATE=0.3
+      - AURIX_UPLIFT_GUESS=0.20
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8080 --reload
+
+  db:
+    image: postgres:15
+    container_name: aurix-db
+    environment:
+      POSTGRES_USER: aurix
+      POSTGRES_PASSWORD: aurix
+      POSTGRES_DB: aurix
+    volumes:
+      - aurix_db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.15.0
+    container_name: aurix-mlflow
+    environment:
+      MLFLOW_TRACKING_URI: http://0.0.0.0:5000
+    volumes:
+      - ./mlruns:/mlruns
+    ports:
+      - "5000:5000"
+    command: mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root /mlruns
+
+  grafana:
+    image: grafana/grafana:10.2.3
+    container_name: aurix-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+volumes:
+  aurix_db_data:
+  grafana_data:
