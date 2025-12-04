@@ -1,0 +1,57 @@
+# aurix_churn:
+#   target: dev
+#   outputs:
+#     dev:
+#       type: duckdb
+#       path: "{{ env_var('AURIX_DUCKDB_PATH', 'data/aurix_churn.duckdb') }}"
+#       threads: 4
+#       schema: main
+
+# aurix_churn:
+#   target: dev
+#   outputs:
+#     dev:
+#       type: sqlite
+#       threads: 1
+#       database: "{{ env_var('AURIX_DB_PATH', 'aurix_churn.db') }}"
+#       schema: main
+#       schema_directory: "{{ env_var('AURIX_DB_DIR', './data/dbt_project/db') }}"
+#       schemas_and_databases: {}
+
+# aurix_churn:
+#   target: dev
+#   outputs:
+#     dev:
+#       type: sqlite
+#       threads: 1
+
+#       # Logical database name (dbt-sqlite still expects this field)
+#       database: aurix_churn
+
+#       # Logical schema name you will reference in dbt (e.g. "main")
+#       # This should correspond to a key in schemas_and_paths below.
+#       schema: main
+
+#       # Map schema names to physical SQLite file paths.
+#       # The env_var call allows you to override the path if needed.
+#       # export AURIX_DB_PATH="/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/aurix_churn.db"
+#       schemas_and_paths:
+#         main: "{{ env_var('AURIX_DB_PATH', 'data/dbt_project/aurix_churn.db') }}"
+
+aurix_churn:
+  target: dev
+  outputs:
+    dev:
+      type: sqlite
+      threads: 1
+
+      # Logical database name for dbt; sqlite adapter uses this with schemas_and_paths
+      database: aurix_churn
+
+      # SQLite has a single schema; we’ll just use "main"
+      schema: main
+
+      # REQUIRED for dbt-sqlite: map schema → directory where the .db file lives
+      # Here we point "main" to your existing dbt_project directory.
+      schemas_and_paths:
+        main: "/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project"

@@ -1,0 +1,412 @@
+[0m04:02:37.271070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c42150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c4d410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c42310>]}
+
+
+============================== 04:02:37.273136 | 144276ef-be76-472e-85ae-adcf71b6e617 ==============================
+[0m04:02:37.273136 [info ] [MainThread]: Running with dbt=1.9.4
+[0m04:02:37.273439 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m04:02:37.274739 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'aurix_churn'
+[0m04:02:37.417616 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.17401592, "process_in_blocks": "0", "process_kernel_time": 0.090835, "process_mem_max_rss": "120946688", "process_out_blocks": "0", "process_user_time": 0.907981}
+[0m04:02:37.418217 [debug] [MainThread]: Command `dbt seed` failed at 04:02:37.418122 after 0.17 seconds
+[0m04:02:37.418591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10644db90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100978490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c41390>]}
+[0m04:02:37.418954 [debug] [MainThread]: Flushing usage events
+[0m04:02:37.825015 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:02:39.020963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12004eb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1200a36d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1200c2c90>]}
+
+
+============================== 04:02:39.022754 | 8ace996c-f7a8-4aef-9495-5b6dde5a0f48 ==============================
+[0m04:02:39.022754 [info ] [MainThread]: Running with dbt=1.9.4
+[0m04:02:39.023063 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m04:02:39.024499 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'aurix_churn'
+[0m04:02:39.025154 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.028990459, "process_in_blocks": "0", "process_kernel_time": 0.084541, "process_mem_max_rss": "123207680", "process_out_blocks": "0", "process_user_time": 0.920191}
+[0m04:02:39.025354 [debug] [MainThread]: Command `dbt run` failed at 04:02:39.025314 after 0.03 seconds
+[0m04:02:39.025522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1200a8450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1200c2bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e2d550>]}
+[0m04:02:39.025677 [debug] [MainThread]: Flushing usage events
+[0m04:02:39.384503 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:56:40.609414 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e4e150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e41390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ebe310>]}
+
+
+============================== 07:56:40.611534 | 1de4ca2d-2a99-4d17-aefe-60d64d5283be ==============================
+[0m07:56:40.611534 [info ] [MainThread]: Running with dbt=1.9.4
+[0m07:56:40.611821 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:56:40.613305 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'aurix_churn'
+[0m07:56:40.614031 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.030221, "process_in_blocks": "0", "process_kernel_time": 0.088726, "process_mem_max_rss": "120078336", "process_out_blocks": "0", "process_user_time": 0.89455}
+[0m07:56:40.614237 [debug] [MainThread]: Command `dbt seed` failed at 07:56:40.614196 after 0.03 seconds
+[0m07:56:40.614407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ea3e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100c30610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100c30550>]}
+[0m07:56:40.614563 [debug] [MainThread]: Flushing usage events
+[0m07:56:41.115613 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:56:42.253209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b04db90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b0c1350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b0c1d10>]}
+
+
+============================== 07:56:42.254886 | d10ccfe4-fff5-4161-95fa-3ee1df05b1fd ==============================
+[0m07:56:42.254886 [info ] [MainThread]: Running with dbt=1.9.4
+[0m07:56:42.255195 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m07:56:42.256580 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'aurix_churn'
+[0m07:56:42.257225 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.027516333, "process_in_blocks": "0", "process_kernel_time": 0.074896, "process_mem_max_rss": "120504320", "process_out_blocks": "0", "process_user_time": 0.888807}
+[0m07:56:42.257419 [debug] [MainThread]: Command `dbt run` failed at 07:56:42.257380 after 0.03 seconds
+[0m07:56:42.257582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b0c1c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104868610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104868550>]}
+[0m07:56:42.257736 [debug] [MainThread]: Flushing usage events
+[0m07:56:42.537357 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:58:34.592557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cb1f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d0d410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d26350>]}
+
+
+============================== 07:58:34.594357 | 17f6a756-0250-4815-8dfa-7d4133d9771f ==============================
+[0m07:58:34.594357 [info ] [MainThread]: Running with dbt=1.9.4
+[0m07:58:34.594663 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed', 'send_anonymous_usage_stats': 'True'}
+[0m07:58:34.595971 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'aurix_churn'
+[0m07:58:34.596619 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.029456874, "process_in_blocks": "0", "process_kernel_time": 0.087183, "process_mem_max_rss": "121274368", "process_out_blocks": "0", "process_user_time": 0.920526}
+[0m07:58:34.596816 [debug] [MainThread]: Command `dbt seed` failed at 07:58:34.596776 after 0.03 seconds
+[0m07:58:34.596989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d0cfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10078c650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10078c590>]}
+[0m07:58:34.597145 [debug] [MainThread]: Flushing usage events
+[0m07:58:34.892555 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:58:36.081018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114e4e410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114e4d410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114ea9410>]}
+
+
+============================== 07:58:36.082767 | f98467b5-5974-4443-95ed-62eb4cbae89a ==============================
+[0m07:58:36.082767 [info ] [MainThread]: Running with dbt=1.9.4
+[0m07:58:36.083077 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m07:58:36.084481 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'aurix_churn'
+[0m07:58:36.085126 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.028759666, "process_in_blocks": "0", "process_kernel_time": 0.083322, "process_mem_max_rss": "120504320", "process_out_blocks": "0", "process_user_time": 0.913286}
+[0m07:58:36.085327 [debug] [MainThread]: Command `dbt run` failed at 07:58:36.085286 after 0.03 seconds
+[0m07:58:36.085495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114ec2710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105099510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105099390>]}
+[0m07:58:36.085656 [debug] [MainThread]: Flushing usage events
+[0m07:58:36.426822 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:27:01.074836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10865e290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106baa690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086d63d0>]}
+
+
+============================== 09:27:01.076724 | c5a87a83-5c01-4f8a-b76c-00764960975d ==============================
+[0m09:27:01.076724 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:27:01.077028 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:27:01.078550 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'aurix_churn'
+[0m09:27:01.079225 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.028082334, "process_in_blocks": "0", "process_kernel_time": 0.086299, "process_mem_max_rss": "121290752", "process_out_blocks": "0", "process_user_time": 0.876148}
+[0m09:27:01.079442 [debug] [MainThread]: Command `dbt seed` failed at 09:27:01.079401 after 0.03 seconds
+[0m09:27:01.079608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086b85d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086b8dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1086b8d50>]}
+[0m09:27:01.079769 [debug] [MainThread]: Flushing usage events
+[0m09:27:01.371098 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:27:02.502739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11274e550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127c1890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127c2250>]}
+
+
+============================== 09:27:02.504377 | bfb87b7c-eef8-4d9e-937b-8a0e426c69a8 ==============================
+[0m09:27:02.504377 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:27:02.504687 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:27:02.506089 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'aurix_churn'
+[0m09:27:02.506760 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.027609043, "process_in_blocks": "0", "process_kernel_time": 0.0795, "process_mem_max_rss": "120078336", "process_out_blocks": "0", "process_user_time": 0.868822}
+[0m09:27:02.507000 [debug] [MainThread]: Command `dbt run` failed at 09:27:02.506953 after 0.03 seconds
+[0m09:27:02.507159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127c1dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112582a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102205450>]}
+[0m09:27:02.507332 [debug] [MainThread]: Flushing usage events
+[0m09:27:02.794180 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:41:33.828929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109d9a790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109d99410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109d8e310>]}
+
+
+============================== 09:41:33.831005 | 9727bc81-dee9-49b6-9173-739c1e6e3f68 ==============================
+[0m09:41:33.831005 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:41:33.831303 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:41:34.271515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9727bc81-dee9-49b6-9173-739c1e6e3f68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a814d50>]}
+[0m09:41:34.289883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9727bc81-dee9-49b6-9173-739c1e6e3f68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077fc350>]}
+[0m09:41:34.290752 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m09:41:34.346980 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m09:41:34.347342 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m09:41:34.347543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9727bc81-dee9-49b6-9173-739c1e6e3f68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ac09e50>]}
+[0m09:41:34.766093 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.aurix_churn_dbt.stg_telco_customers' (models/staging/stg_telco_customers.sql) depends on a node named 'telco_sample' which was not found
+[0m09:41:34.767123 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.9630398, "process_in_blocks": "0", "process_kernel_time": 0.148788, "process_mem_max_rss": "150208512", "process_out_blocks": "0", "process_user_time": 1.442805}
+[0m09:41:34.767327 [debug] [MainThread]: Command `dbt seed` failed at 09:41:34.767287 after 0.96 seconds
+[0m09:41:34.767497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109df4110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10470cfd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc5f590>]}
+[0m09:41:34.767664 [debug] [MainThread]: Flushing usage events
+[0m09:41:35.082421 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:11:19.134497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x101e75a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108da3450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108da9410>]}
+
+
+============================== 10:11:19.136378 | 4388c02c-9172-4141-a952-29eb7b146377 ==============================
+[0m10:11:19.136378 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:11:19.136676 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:11:19.145829 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schemas_and_paths' is a required property
+[0m10:11:19.146555 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.03580196, "process_in_blocks": "0", "process_kernel_time": 0.088581, "process_mem_max_rss": "120913920", "process_out_blocks": "0", "process_user_time": 0.890757}
+[0m10:11:19.146845 [debug] [MainThread]: Command `dbt seed` failed at 10:11:19.146801 after 0.04 seconds
+[0m10:11:19.147017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108da87d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108deabd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10118c8d0>]}
+[0m10:11:19.147187 [debug] [MainThread]: Flushing usage events
+[0m10:11:19.447619 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:11:20.590728 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11254e750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1125a5410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1125ca950>]}
+
+
+============================== 10:11:20.592530 | 439d08f6-5264-4117-81b9-dbb742beb4e7 ==============================
+[0m10:11:20.592530 [info ] [MainThread]: Running with dbt=1.9.4
+[0m10:11:20.592821 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'version_check': 'True', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:11:20.601068 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schemas_and_paths' is a required property
+[0m10:11:20.601821 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.03455733, "process_in_blocks": "0", "process_kernel_time": 0.078815, "process_mem_max_rss": "121733120", "process_out_blocks": "0", "process_user_time": 0.885044}
+[0m10:11:20.602093 [debug] [MainThread]: Command `dbt run` failed at 10:11:20.602050 after 0.03 seconds
+[0m10:11:20.602261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112542390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1125ca810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1121c1710>]}
+[0m10:11:20.602427 [debug] [MainThread]: Flushing usage events
+[0m10:11:20.908413 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:07:44.442144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106396810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063eb450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063f1410>]}
+
+
+============================== 11:07:44.443940 | 628f7cc7-cfe7-4f6a-ba4b-d56299bd2ee0 ==============================
+[0m11:07:44.443940 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:07:44.444237 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'version_check': 'True', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:07:44.452552 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schemas_and_paths' is a required property
+[0m11:07:44.453350 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.035354916, "process_in_blocks": "0", "process_kernel_time": 0.089158, "process_mem_max_rss": "120995840", "process_out_blocks": "0", "process_user_time": 0.874368}
+[0m11:07:44.453688 [debug] [MainThread]: Command `dbt seed` failed at 11:07:44.453633 after 0.04 seconds
+[0m11:07:44.453892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10638a7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063f0c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100e74850>]}
+[0m11:07:44.454082 [debug] [MainThread]: Flushing usage events
+[0m11:07:44.747058 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:07:45.887162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105aa2990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105af7810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105af8690>]}
+
+
+============================== 11:07:45.888846 | 40a22036-ca7e-4ed9-b44a-8644ae47cd68 ==============================
+[0m11:07:45.888846 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:07:45.889158 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:07:45.897582 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schemas_and_paths' is a required property
+[0m11:07:45.898340 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.0345705, "process_in_blocks": "0", "process_kernel_time": 0.078701, "process_mem_max_rss": "121765888", "process_out_blocks": "0", "process_user_time": 0.875192}
+[0m11:07:45.898619 [debug] [MainThread]: Command `dbt run` failed at 11:07:45.898574 after 0.03 seconds
+[0m11:07:45.898784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b16210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b16510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100583b50>]}
+[0m11:07:45.898953 [debug] [MainThread]: Flushing usage events
+[0m11:07:46.183675 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:27:46.076552 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c4d050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ca5410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c41a90>]}
+
+
+============================== 11:27:46.078514 | 151ce2a8-6a09-484e-a0e7-68ee405e6336 ==============================
+[0m11:27:46.078514 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:27:46.078821 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'send_anonymous_usage_stats': 'True'}
+[0m11:27:46.087129 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m11:27:46.087899 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.034687083, "process_in_blocks": "0", "process_kernel_time": 0.091137, "process_mem_max_rss": "122748928", "process_out_blocks": "0", "process_user_time": 0.877662}
+[0m11:27:46.088187 [debug] [MainThread]: Command `dbt seed` failed at 11:27:46.088146 after 0.04 seconds
+[0m11:27:46.088363 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102408350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1024095d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107cc1590>]}
+[0m11:27:46.088533 [debug] [MainThread]: Flushing usage events
+[0m11:27:46.381553 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:27:47.517537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114941690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11494e210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1149a5b10>]}
+
+
+============================== 11:27:47.519268 | dd04902f-523f-44aa-8123-826941546d1c ==============================
+[0m11:27:47.519268 [info ] [MainThread]: Running with dbt=1.9.4
+[0m11:27:47.519571 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:27:47.527494 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m11:27:47.528292 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.03427175, "process_in_blocks": "0", "process_kernel_time": 0.080667, "process_mem_max_rss": "123076608", "process_out_blocks": "0", "process_user_time": 0.898056}
+[0m11:27:47.528569 [debug] [MainThread]: Command `dbt run` failed at 11:27:47.528528 after 0.03 seconds
+[0m11:27:47.528741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1149c2850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1149c2d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f888d0>]}
+[0m11:27:47.528926 [debug] [MainThread]: Flushing usage events
+[0m11:27:47.814585 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:45:37.378341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a51ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a53750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107acaa10>]}
+
+
+============================== 04:45:37.381046 | f4eb923b-efed-41fa-a74f-8bcc8023dc57 ==============================
+[0m04:45:37.381046 [info ] [MainThread]: Running with dbt=1.9.4
+[0m04:45:37.381359 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'send_anonymous_usage_stats': 'True'}
+[0m04:45:37.397585 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m04:45:37.401601 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.051103543, "process_in_blocks": "0", "process_kernel_time": 0.149173, "process_mem_max_rss": "123486208", "process_out_blocks": "0", "process_user_time": 0.982835}
+[0m04:45:37.401943 [debug] [MainThread]: Command `dbt seed` failed at 04:45:37.401890 after 0.05 seconds
+[0m04:45:37.402142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a46710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107aa87d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x101019750>]}
+[0m04:45:37.402327 [debug] [MainThread]: Flushing usage events
+[0m04:45:37.877237 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:45:39.125002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c82510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f4e210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f43050>]}
+
+
+============================== 04:45:39.127191 | 678620b2-ef1a-491a-8f38-71cd16e69d34 ==============================
+[0m04:45:39.127191 [info ] [MainThread]: Running with dbt=1.9.4
+[0m04:45:39.127530 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m04:45:39.137136 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m04:45:39.138094 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04152008, "process_in_blocks": "0", "process_kernel_time": 0.092634, "process_mem_max_rss": "125075456", "process_out_blocks": "0", "process_user_time": 0.958805}
+[0m04:45:39.138446 [debug] [MainThread]: Command `dbt run` failed at 04:45:39.138388 after 0.04 seconds
+[0m04:45:39.138668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f427d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f42550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102510850>]}
+[0m04:45:39.138872 [debug] [MainThread]: Flushing usage events
+[0m04:45:39.452253 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:13:41.351450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111b82a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111da3a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111dc2bd0>]}
+
+
+============================== 05:13:41.353354 | 4d59c2cd-19ab-401e-920c-fb1f0aa1e1c1 ==============================
+[0m05:13:41.353354 [info ] [MainThread]: Running with dbt=1.9.4
+[0m05:13:41.353666 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m05:13:41.360884 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m05:13:41.361748 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.035261333, "process_in_blocks": "0", "process_kernel_time": 0.089645, "process_mem_max_rss": "120930304", "process_out_blocks": "0", "process_user_time": 0.924191}
+[0m05:13:41.362226 [debug] [MainThread]: Command `dbt seed` failed at 05:13:41.362175 after 0.04 seconds
+[0m05:13:41.362437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111dc2390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102aad750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102aac350>]}
+[0m05:13:41.362631 [debug] [MainThread]: Flushing usage events
+[0m05:13:41.761015 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:13:42.957055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107899c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a53d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079220d0>]}
+
+
+============================== 05:13:42.958873 | 4d8551f2-176e-4c12-a4c9-90dd429b78bf ==============================
+[0m05:13:42.958873 [info ] [MainThread]: Running with dbt=1.9.4
+[0m05:13:42.959182 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'send_anonymous_usage_stats': 'True'}
+[0m05:13:42.968047 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m05:13:42.968907 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.037031833, "process_in_blocks": "0", "process_kernel_time": 0.082024, "process_mem_max_rss": "121257984", "process_out_blocks": "0", "process_user_time": 0.918834}
+[0m05:13:42.969260 [debug] [MainThread]: Command `dbt run` failed at 05:13:42.969202 after 0.04 seconds
+[0m05:13:42.969453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107923090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107922850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102384850>]}
+[0m05:13:42.969632 [debug] [MainThread]: Flushing usage events
+[0m05:13:43.286033 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:28:18.221505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b6e250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bc3810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bc9410>]}
+
+
+============================== 17:28:18.223934 | bc63f2b2-0669-432d-a35d-0f96884b4699 ==============================
+[0m17:28:18.223934 [info ] [MainThread]: Running with dbt=1.9.4
+[0m17:28:18.224239 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'version_check': 'True', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:28:18.245315 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m17:28:18.252972 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.057789832, "process_in_blocks": "0", "process_kernel_time": 0.130101, "process_mem_max_rss": "121012224", "process_out_blocks": "0", "process_user_time": 0.90532}
+[0m17:28:18.253481 [debug] [MainThread]: Command `dbt seed` failed at 17:28:18.253390 after 0.06 seconds
+[0m17:28:18.253720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bc9f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bc8790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10064c8d0>]}
+[0m17:28:18.253909 [debug] [MainThread]: Flushing usage events
+[0m17:28:18.573768 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:28:19.696456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11854eed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1183874d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a03c90>]}
+
+
+============================== 17:28:19.698013 | 2249aabe-672b-4bd7-a606-3a95ba2f7666 ==============================
+[0m17:28:19.698013 [info ] [MainThread]: Running with dbt=1.9.4
+[0m17:28:19.698308 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:28:19.705837 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m17:28:19.706597 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.032598086, "process_in_blocks": "0", "process_kernel_time": 0.066536, "process_mem_max_rss": "121044992", "process_out_blocks": "0", "process_user_time": 0.875773}
+[0m17:28:19.706886 [debug] [MainThread]: Command `dbt run` failed at 17:28:19.706840 after 0.03 seconds
+[0m17:28:19.707058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1010c8850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118282710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1185c1910>]}
+[0m17:28:19.707228 [debug] [MainThread]: Flushing usage events
+[0m17:28:19.982482 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:52:37.613253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a42a590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a4293d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a47d410>]}
+
+
+============================== 17:52:37.615123 | de7b5f6c-e249-42ab-bde4-652cb191e3c4 ==============================
+[0m17:52:37.615123 [info ] [MainThread]: Running with dbt=1.9.4
+[0m17:52:37.615405 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:52:37.623035 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m17:52:37.624001 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.035011668, "process_in_blocks": "0", "process_kernel_time": 0.081117, "process_mem_max_rss": "122667008", "process_out_blocks": "0", "process_user_time": 0.912405}
+[0m17:52:37.624355 [debug] [MainThread]: Command `dbt seed` failed at 17:52:37.624305 after 0.04 seconds
+[0m17:52:37.624559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f08910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f08850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a41ff50>]}
+[0m17:52:37.624774 [debug] [MainThread]: Flushing usage events
+[0m17:52:37.916493 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:52:39.065476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d430d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106da4690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104322ed0>]}
+
+
+============================== 17:52:39.067184 | 0aff4cee-1358-4baa-ac59-66ef03c63096 ==============================
+[0m17:52:39.067184 [info ] [MainThread]: Running with dbt=1.9.4
+[0m17:52:39.067480 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'debug': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:52:39.075430 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m17:52:39.076295 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.03537421, "process_in_blocks": "0", "process_kernel_time": 0.071231, "process_mem_max_rss": "120274944", "process_out_blocks": "0", "process_user_time": 0.905892}
+[0m17:52:39.076636 [debug] [MainThread]: Command `dbt run` failed at 17:52:39.076591 after 0.04 seconds
+[0m17:52:39.076836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d42850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d430d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100444910>]}
+[0m17:52:39.077014 [debug] [MainThread]: Flushing usage events
+[0m17:52:39.390692 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:15:09.087778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b24e810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b2c1ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b2c2490>]}
+
+
+============================== 18:15:09.089691 | dd7e179f-4012-4dd2-be50-7a433d31f33d ==============================
+[0m18:15:09.089691 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:15:09.089972 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:15:09.097382 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m18:15:09.098267 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.03395471, "process_in_blocks": "0", "process_kernel_time": 0.082529, "process_mem_max_rss": "122142720", "process_out_blocks": "0", "process_user_time": 0.889559}
+[0m18:15:09.098661 [debug] [MainThread]: Command `dbt seed` failed at 18:15:09.098612 after 0.03 seconds
+[0m18:15:09.098887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109611b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b242550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b243f90>]}
+[0m18:15:09.099081 [debug] [MainThread]: Flushing usage events
+[0m18:15:09.597323 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:15:10.725159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111341f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1113a8690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111082b50>]}
+
+
+============================== 18:15:10.726737 | afdae5cd-571b-477a-b415-6abb89a37d7d ==============================
+[0m18:15:10.726737 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:15:10.727026 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:15:10.734920 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m18:15:10.735961 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.03373283, "process_in_blocks": "0", "process_kernel_time": 0.070789, "process_mem_max_rss": "121765888", "process_out_blocks": "0", "process_user_time": 0.888152}
+[0m18:15:10.736310 [debug] [MainThread]: Command `dbt run` failed at 18:15:10.736251 after 0.03 seconds
+[0m18:15:10.736509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1113c1c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1029108d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111341310>]}
+[0m18:15:10.736705 [debug] [MainThread]: Flushing usage events
+[0m18:15:11.024732 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:38:50.040891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115c4cc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115ca9410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115ca8690>]}
+
+
+============================== 18:38:50.042745 | 0a8a9b11-d2b6-47ea-aa10-3e887c529bde ==============================
+[0m18:38:50.042745 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:38:50.043044 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:38:50.050895 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m18:38:50.051851 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.03424021, "process_in_blocks": "0", "process_kernel_time": 0.084986, "process_mem_max_rss": "124092416", "process_out_blocks": "0", "process_user_time": 0.891907}
+[0m18:38:50.052221 [debug] [MainThread]: Command `dbt seed` failed at 18:38:50.052171 after 0.03 seconds
+[0m18:38:50.052422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115ca8150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104525750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115cea050>]}
+[0m18:38:50.052624 [debug] [MainThread]: Flushing usage events
+[0m18:38:50.348724 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:38:51.500976 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114952890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1145b5dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1149c2b90>]}
+
+
+============================== 18:38:51.502590 | 55645eb1-5bf8-4f0b-9c93-78ae3d5ece4b ==============================
+[0m18:38:51.502590 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:38:51.502895 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:38:51.510681 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m18:38:51.511661 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.033979543, "process_in_blocks": "0", "process_kernel_time": 0.07388, "process_mem_max_rss": "121831424", "process_out_blocks": "0", "process_user_time": 0.878353}
+[0m18:38:51.512025 [debug] [MainThread]: Command `dbt run` failed at 18:38:51.511975 after 0.03 seconds
+[0m18:38:51.512235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1149a3190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1149a33d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c5c350>]}
+[0m18:38:51.512412 [debug] [MainThread]: Flushing usage events
+[0m18:38:51.853797 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:41:58.282670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b54e710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b541810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5a5410>]}
+
+
+============================== 18:41:58.284481 | 7bc80228-5ed9-4e35-95d4-e8c99beeb6b7 ==============================
+[0m18:41:58.284481 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:41:58.284772 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt seed --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:41:58.291861 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m18:41:58.292636 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": false, "command_wall_clock_time": 0.03401004, "process_in_blocks": "0", "process_kernel_time": 0.082848, "process_mem_max_rss": "122683392", "process_out_blocks": "0", "process_user_time": 0.913385}
+[0m18:41:58.292959 [debug] [MainThread]: Command `dbt seed` failed at 18:41:58.292917 after 0.03 seconds
+[0m18:41:58.293128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5a47d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f00910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b541390>]}
+[0m18:41:58.293295 [debug] [MainThread]: Flushing usage events
+[0m18:41:58.592148 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:41:59.737399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11524de90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1152c1610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1152c1fd0>]}
+
+
+============================== 18:41:59.739035 | 7345d846-fcb0-40c7-97ae-35f7cb99bda5 ==============================
+[0m18:41:59.739035 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:41:59.739337 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir /Users/mlwu/Documents/Academia/CMU/tepper_courses/Machine Learning for Business Applications/project/code/data/dbt_project/profiles', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:41:59.747116 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "aurix_churn", target "dev" invalid: 'schema_directory' is a required property
+[0m18:41:59.747876 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.03464321, "process_in_blocks": "0", "process_kernel_time": 0.074629, "process_mem_max_rss": "120504320", "process_out_blocks": "0", "process_user_time": 0.904294}
+[0m18:41:59.748147 [debug] [MainThread]: Command `dbt run` failed at 18:41:59.748107 after 0.03 seconds
+[0m18:41:59.748311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1152c2390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1152a9010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104bcc910>]}
+[0m18:41:59.748475 [debug] [MainThread]: Flushing usage events
+[0m18:42:00.017358 [debug] [MainThread]: An error was encountered while trying to flush usage events

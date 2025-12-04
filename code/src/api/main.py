@@ -5,6 +5,7 @@ from fastapi import FastAPI
 
 # Relative imports within the src.api package
 from .train import router as train_router
+from .recommend import router as recommend_router
 from .predict import router as predict_router
 from explain import router as explain_router
 from .routes.monitor import router as monitor_router
@@ -20,6 +21,7 @@ def health():
 
 # Attach routers
 app.include_router(train_router)
+app.include_router(recommend_router)
 app.include_router(predict_router)
 app.include_router(explain_router)
 app.include_router(monitor_router)

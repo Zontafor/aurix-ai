@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: stg_telco_customers
+    description: >
+      Staging view that cleans and normalizes the raw Telco churn extract
+      from `telco_sample` (seed). Handles type casting, missing values,
+      and standardizes categorical labels.
+    columns:
+      - name: customer_id
+        description: Unique customer identifier.
+        tests:
+          - not_null
+          - unique
+
+      - name: churn
+        description: Binary churn label (1 = churned, 0 = retained).
+        tests:
+          - not_null
+
+      - name: tenure_months
+        description: Number of months the customer has been with the provider.
+      - name: monthly_charges
+        description: Current monthly bill amount.
+      - name: total_charges
+        description: Cumulative charges over the customer lifetime.
+
+  - name: mart_churn_features
+    description: >
+      Feature-ready mart table used by the churn propensity and uplift models.
+      Includes numeric features and one-hot/indicator encodings for contract,
+      payment method, and internet service characteristics.
+    columns:
+      - name: customer_id
+        description: Unique customer identifier.
+        tests:
+          - not_null
+          - unique
+
+      - name: churn
+        description: Binary churn label (1 = churned, 0 = retained).
+        tests:
+          - not_null
+
+      - name: tenure_months
+        description: Tenure in months.
+      - name: monthly_charges
+        description: Current monthly bill amount.
+      - name: total_charges
+        description: Cumulative charges over the customer lifetime.
+      - name: avg_monthly_spend
+        description: Lifetime-average monthly spend (= total_charges / tenure_months).
+
+      - name: is_long_contract
+        description: Indicator for one- or two-year contracts.
+      - name: has_fiber_internet
+        description: Indicator for fiber-optic internet service.
+      - name: is_electronic_check
+        description: Indicator for electronic-check payment method.
+      - name: has_online_security
+        description: Indicator for included online security add-on.
+      - name: has_tech_support
+        description: Indicator for included technical support add-on.
