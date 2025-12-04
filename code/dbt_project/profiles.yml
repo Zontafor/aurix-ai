@@ -1,0 +1,10 @@
+<aurix-ai>:
+   target: dev
+   outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('AURIX_DUCKDB_PATH', 'churn.duckdb') }}"
+      threads: 4
+      schema: main
+      extensions:
+        - parquet

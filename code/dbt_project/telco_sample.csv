@@ -1,0 +1,3 @@
+customerID,tenure,MonthlyCharges,TotalCharges,Churn,Contract,PaymentMethod,InternetService
+0001-BGFDV,1,70.35,70.35,No,Month-to-month,Electronic check,Fiber optic
+0002-DMKLT,24,65.20,1564.80,Yes,One year,Credit card (automatic),DSL

@@ -1,0 +1,25 @@
+name: 'aurix_churn_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'aurix_churn'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analysis"]
+
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  aurix_churn_dbt:
+    +materialized: view
+
+    staging:
+      +schema: staging
+      +materialized: view
+
+    marts:
+      +schema: marts
+      +materialized: table
