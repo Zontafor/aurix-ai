@@ -1,0 +1,22 @@
+{
+  "customerID": "curl-test",
+  "tenure": 12,
+  "MonthlyCharges": 75.3,
+  "TotalCharges": 900.0,
+  "Contract": "Month-to-month",
+  "InternetService": "Fiber optic",
+  "PaymentMethod": "Electronic check",
+  "PaperlessBilling": "Yes",
+  "gender": "Male",
+  "SeniorCitizen": 0,
+  "Partner": "No",
+  "Dependents": "No",
+  "PhoneService": "Yes",
+  "MultipleLines": "No",
+  "OnlineSecurity": "No",
+  "OnlineBackup": "No",
+  "DeviceProtection": "No",
+  "TechSupport": "No",
+  "StreamingTV": "Yes",
+  "StreamingMovies": "Yes"
+}

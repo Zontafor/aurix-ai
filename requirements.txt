@@ -1,0 +1,39 @@
+# Core
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+xgboost==2.1.2
+matplotlib==3.9.2
+joblib==1.4.2
+
+# API & orchestration
+fastapi==0.115.0
+uvicorn==0.31.0
+pydantic==2.9.2
+
+# Experiment tracking
+mlflow==2.15.0
+
+# Feature store / data ops
+feast==0.45.0
+sqlalchemy==2.0.31
+psycopg2-binary==2.9.9 # required for PostgreSQL support in Feast
+
+# Monitoring / explainability
+evidently==0.4.34
+shap==0.46.0
+streamlit==1.39.0
+grafanalib==0.7.0
+
+# Utilities
+python-dotenv==1.0.1
+pyyaml==6.0.2
+requests==2.32.3
+
+# Optional academic reproducibility
+notebook==7.2.2
+jupyterlab==4.2.5
+
+# Development
+black==24.8.0
+flake8==7.1.1

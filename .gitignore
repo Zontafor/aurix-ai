@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+venv/
+.env/
+
+# Large artifacts / data / models
+data/
+mlruns/
+*.joblib
+*.pkl
+*.npy
+*.csv
+*.parquet
+*.log
+
+# Notebooks / misc
+.ipynb_checkpoints/

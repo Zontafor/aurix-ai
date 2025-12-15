@@ -1,0 +1,10 @@
+pytest>=7.0
+requests>=2.31
+locust>=2.20
+fastapi
+httpx
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
